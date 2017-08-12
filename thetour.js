@@ -5,7 +5,7 @@ var vrHomePage = vRViewPlayer('#tour', {
 window.addEventListener('load', vrHomePage);
 
 vrHomePage.on('ready', function(event) {
- myPicture.addHotspot('creating-hotspots-1', {
+ vrHomePage.addHotspot('creating-hotspots-1', {
      pitch: 0,
      yaw: 0,
      radius:0.10,
