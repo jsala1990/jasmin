@@ -13,9 +13,9 @@ vrHomePage.on('ready', function(event) {
  });
 });
 
-vrHomePage.on('ready', function(event) {
- console.log('register all clicks events');
-  if (event.id == 'creating-hotspot-1') {
-  alert("welcome to the upper west side")
-}
+vrHomePage.on('click', function(event) {
+    console.log('register all clicks events');
+    if (event.id == 'creating-hotspot-1') {
+        alert("welcome to the upper west side")
+    }
 });
