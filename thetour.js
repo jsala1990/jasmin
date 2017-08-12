@@ -38,5 +38,11 @@ vrHomePage.on('ready', function(event) {
         radius:0.10,
         distance: 1
     });
-});
+}); 
 
+vrHomePage.on('click', function(event) {
+console.log('register all click events');
+    if('event.id == 'creating-hotspot-1') {
+       thetour("Welcome to the Upper West Side")
+}
+});
