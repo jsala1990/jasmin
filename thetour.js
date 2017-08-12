@@ -14,27 +14,27 @@ vrHomePage.on('ready', function(event) {
     });
     vrHomePage.addHotspot('creating-hotspot-2', {
          pitch: 0,
-         yaw: 40,
+         yaw: 90,
          radius:0.10,
          distance: 1
     }); 
     
     vrHomePage.addHotspot('creating-hotspot-3', {
         pitch: 0,
-        yaw: 90,
+        yaw: 180,
         radius:0.10,
         distance: 1
     });
   
     vrHomePage.addHotspot('creating-hotspot-4', {
         pitch: 0,
-        yaw: 120,
+        yaw: 270,
         radius:0.10,
         distance: 1
     });
     vrHomePage.addHotspot('creating-hotspot-5', {
         pitch: 0,
-        yaw: 165,
+        yaw: 360,
         radius:0.10,
         distance: 1
     });
